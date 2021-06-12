@@ -1,4 +1,5 @@
 /.idea/
-/cmd/main
-/cmd/cmd
+/parte1/cmd/main
+/parte1/cmd/cmd
 /main
+/parte2/file/

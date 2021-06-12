@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/araddon/dateparse"
 	"github.com/gorilla/mux"
-	"github.com/memeoAmazonas/imuko-test-golang/internal/entity"
+	"github.com/memeoAmazonas/imuko-test-golang/parte1/internal/entity"
 	"net/http"
 	"strconv"
 	"strings"

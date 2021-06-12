@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/memeoAmazonas/imuko-test-golang/internal/call_center"
-	"github.com/memeoAmazonas/imuko-test-golang/internal/middleware"
+	"github.com/memeoAmazonas/imuko-test-golang/parte1/internal/call_center"
+	"github.com/memeoAmazonas/imuko-test-golang/parte1/internal/middleware"
 	"net/http"
 )
 
