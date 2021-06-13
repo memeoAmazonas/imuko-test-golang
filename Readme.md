@@ -10,7 +10,7 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
-    <li><a href="https://github.com/memeoAmazonas/imuko-test-golang/parte1/README.md">parte 1</a></li>
+    <li><a href="https://github.com/memeoAmazonas/imuko-test-golang/tree/master/parte1">parte 1</a></li>
     <li><a href="https://github.com/memeoAmazonas/imuko-test-golang/parte2/README.md">parte 2</a></li>
     <li><a href="#help">help</a></li>
     <li><a href="#contact">Contact</a></li>
