@@ -34,7 +34,7 @@
    ```
    
 <!-- help -->
-##help
+### help
     The project contain a makefile.
     ```
         make run-1, run parte 1
@@ -45,7 +45,7 @@
     ```
 <hr />  
 <!-- CONTACT -->
-## Contact
+### Contact
 
 José Ortíz - [@ajjicero](https://twitter.com/ajjicero) 
 <a href="mailto:jose.g.ortiz.t@gmail.com" target="_blank">José Ortíz</a>
