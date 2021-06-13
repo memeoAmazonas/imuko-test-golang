@@ -45,7 +45,7 @@
     ```
 <hr />  
 <!-- CONTACT -->
-### Contact
+### contact
 
 José Ortíz - [@ajjicero](https://twitter.com/ajjicero) 
 <a href="mailto:jose.g.ortiz.t@gmail.com" target="_blank">José Ortíz</a>
