@@ -9,13 +9,6 @@ import (
 	"reflect"
 )
 
-/*type Employee struct {
-	ID             string `json:"id"`
-	EmployeeName   string `json:"employee_name"`
-	EmployeeSalary string `json:"employee_salary"`
-	EmployeeAge    string `json:"employee_age"`
-	ProfileImage   string `json:"profile_image"`
-}*/
 type User struct {
 	Username string   `json:"username"`
 	Roles    []string `json:"roles"`
@@ -28,7 +21,7 @@ type Organization struct {
 func main() {
 	file, err := os.Open("parte2/file/data.csv")
 	if err != nil {
-		log.Fatal("A ocurrido un error leyendo el archivo")
+		log.Fatal("A ocurrido un error leyendo el archivo, valide que el archivo exista o que el formato sea correcto.")
 		os.Exit(2)
 	}
 	defer file.Close()
@@ -55,7 +48,6 @@ func main() {
 			usernames[item[0]] = append(usernames[item[0]], us.Username)
 		} else {
 			or := values[item[0]]
-			fmt.Println(or)
 			if contains(usernames[item[0]], item[1]) {
 				for u, j := range or.Users {
 					if j.Username == item[1] {
@@ -83,9 +75,11 @@ func main() {
 		log.Fatal("A ocurrido un error parseando el archivo a json")
 		os.Exit(1)
 	}
-	fmt.Println(string(json_data))
+	fmt.Println("________________________________________________________________________________________________________________________")
+	fmt.Println("Revise la ruta parte2/files/response.json para ver los resultados\n. Resultado: \n", string(json_data))
+	fmt.Println("________________________________________________________________________________________________________________________")
 
-	json_file, err := os.Create("parte2/file/sample.json")
+	json_file, err := os.Create("parte2/file/response.json")
 	if err != nil {
 		log.Fatal("A ocurrido un error creando el archivo a json")
 		os.Exit(2)
